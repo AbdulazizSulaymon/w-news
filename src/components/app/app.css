@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #3d3d3d;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content {
+  min-height: calc(100vh - 215px);
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 0;
+}
+
+.btn-primary,
+.btn-primary:focus {
+  background-color: var(--primary-color);
+}
+
+.blog {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f1f1f1;
+}
+
+.blog-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-name {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #212529;
+  color: #212529 !important;
+  display: inline-block;
+}
+
+.section-name:hover {
+  text-decoration: none;
+}

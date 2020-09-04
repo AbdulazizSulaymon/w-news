@@ -1,0 +1,17 @@
+.head h1 {
+  font-size: 120px;
+  font-size: calc(50px + 6vw);
+  font-weight: 700;
+  text-shadow: 10px 10px 0 rgb(204, 204, 204);
+}
+
+canvas {
+  width: 80vmin;
+  height: 80vmin;
+}
+
+@media screen and (max-width: 776px) {
+  .head h1 {
+    text-shadow: 4px 4px 0 rgb(204, 204, 204);
+  }
+}

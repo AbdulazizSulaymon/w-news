@@ -1,0 +1,24 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding: 40px 15px;
+}
+
+.swiper-wrapper {
+  /* padding-bottom: 70px; */
+  /* margin: 20px; */
+}
+
+.carousel-news-blog .section-name {
+  margin: 0 0 -15px 15px;
+}
+
+@media screen and (min-width: 991px) {
+  .swiper-container {
+    padding: 40px;
+  }
+
+  .carousel-news-blog .section-name {
+    margin: 0 0 -15px 40px;
+  }
+}
