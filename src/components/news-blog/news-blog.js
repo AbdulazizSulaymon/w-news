@@ -69,6 +69,7 @@ class NewsBlog extends Component {
 
   render() {
     const { news, loading, error, category } = this.props;
+    console.log(loading);
     // if (loading) return <Spinner />;
     if (error) return <ErrorIndicator />;
 

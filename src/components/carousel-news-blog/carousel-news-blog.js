@@ -61,7 +61,7 @@ class CarouselNewsBlog extends Component {
     newsRequested();
 
     menuList.map((category, i) => {
-      newsapiService
+      return newsapiService
         .getNews(country, category, 1)
         .then((data) => {
           newsHomeAdded(category, data);
@@ -70,6 +70,8 @@ class CarouselNewsBlog extends Component {
           newsError(error);
         });
     });
+
+    return true;
   };
 
   GetCarouselNews = (newsHome) => {
