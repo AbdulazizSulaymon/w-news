@@ -12,7 +12,7 @@ export default class NewsApiService {
   getNews = async (country, category, page = 1) => {
     // throw new Error("error errorr");
     var url =
-      `http://newsapi.org/v2/top-headlines?` +
+      `https://newsapi.org/v2/top-headlines?` +
       `country=${country}&` +
       `category=${category}&` +
       `pageSize=12&` +
